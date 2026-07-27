@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KHENGUI Ouissal is a Telecommunications Engineering student building practical solutions in Networking, Linux, Cloud Computing, and Software Engineering.">
+    <meta name="keywords" content="KHENGUI Ouissal, Telecommunications Engineering, Cloud Engineering, Networking, Linux, Software Engineering, DevOps, Portfolio, ENSTTIC, Oran, Algeria">
+    <meta name="author" content="KHENGUI Ouissal">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="KHENGUI Ouissal | Telecommunications Engineering Student">
+    <meta property="og:description" content="Building practical solutions through Networking, Linux, Cloud Computing, and Software Engineering.">
+    <meta property="og:image" content="images/personal.jpg">
+    <meta property="og:url" content="https://ouissal-kh.github.io/">
+
+    <title>KHENGUI Ouissal | Telecommunications Engineering Student</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+
+    <div class="loading-screen" id="loading-screen" aria-hidden="true">
+        <div class="loading-screen__logo">OK</div>
+    </div>
+
+    <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="scroll-progress__bar" id="scroll-progress-bar"></div>
+    </div>
+
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <header class="header" id="header">
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#home" class="nav__logo" aria-label="KHENGUI Ouissal, back to home">
+                <span class="nav__logo-mark">OK</span>
+                <span class="nav__logo-name">KHENGUI Ouissal</span>
+            </a>
+
+            <ul class="nav__list" id="nav-list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#journey" class="nav__link">Journey</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#learning" class="nav__link">Learning</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+
+            <a href="CV/KHENGUI_Ouissal_CV.pdf" class="btn btn--primary nav__cta" download aria-label="Download KHENGUI Ouissal's CV as PDF">
+                Download CV
+            </a>
+
+            <button type="button" class="nav__mobile-toggle" id="nav-mobile-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu">
+                <span class="nav__mobile-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ================= SECTION 1: HERO ================= -->
+        <section class="hero" id="home" aria-label="Introduction">
+            <div class="hero__content">
+                <p class="hero__eyebrow">Telecommunications Engineering Student</p>
+                <h1 class="hero__heading">
+                    Engineering Tomorrow,<br>
+                    One Project at a Time.
+                </h1>
+                <p class="hero__paragraph">
+                    Building practical solutions through Networking, Linux, Cloud Computing, and Software Engineering.
+                </p>
+
+                <div class="hero__actions">
+                    <a href="#journey" class="btn btn--primary">Explore My Journey</a>
+                    <a href="CV/KHENGUI_Ouissal_CV.pdf" class="btn btn--secondary" download>Download CV</a>
+                </div>
+
+                <ul class="hero__social" aria-label="Social profiles">
+                    <li class="hero__social-item">
+                        <a href="https://github.com/ouissal-kh" class="hero__social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                    <li class="hero__social-item">
+                        <a href="https://www.linkedin.com/in/ouissal-khengui-057a73260/" class="hero__social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                    <li class="hero__social-item">
+                        <a href="https://hashnode.com/@ouissalkhengui" class="hero__social-link" aria-label="Hashnode blog" target="_blank" rel="noopener noreferrer">Hashnode</a>
+                    </li>
+                </ul>
+
+                <dl class="hero__stats">
+                    <div class="hero__stat">
+                        <dt class="hero__stat-label">Projects</dt>
+                        <dd class="hero__stat-value">5+</dd>
+                    </div>
+                    <div class="hero__stat">
+                        <dt class="hero__stat-label">Internships</dt>
+                        <dd class="hero__stat-value">2</dd>
+                    </div>
+                    <div class="hero__stat">
+                        <dt class="hero__stat-label">Technologies</dt>
+                        <dd class="hero__stat-value">20+</dd>
+                    </div>
+                    <div class="hero__stat">
+                        <dt class="hero__stat-label">Graduation</dt>
+                        <dd class="hero__stat-value">2027</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <figure class="hero__figure">
+                <img
+                    src="images/personal.jpg"
+                    alt="Portrait of KHENGUI Ouissal, Telecommunications Engineering student"
+                    class="hero__image"
+                    width="480"
+                    height="560"
+                >
+            </figure>
+        </section>
+
+        <!-- ================= SECTION 2: JOURNEY ================= -->
+        <section class="journey" id="journey" aria-labelledby="journey-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">From Curiosity to Engineering</p>
+                <h2 class="section-header__heading" id="journey-heading">My Journey</h2>
+            </div>
+
+            <ol class="timeline timeline--journey">
+                <li class="timeline__item">
+                    <time class="timeline__time" datetime="2022">2022</time>
+                    <p class="timeline__label">Started Engineering School</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Programming</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Networking</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Linux</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Cloud Computing</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Internships</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <p class="timeline__label">Today</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- ================= SECTION 3: SKILLS ================= -->
+        <section class="skills" id="skills" aria-labelledby="skills-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">What I Work With</p>
+                <h2 class="section-header__heading" id="skills-heading">Building Blocks</h2>
+            </div>
+
+            <div class="skills__grid">
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true"><!-- icon placeholder: cloud --></div>
+                    <h3 class="skill-card__title">Cloud Engineering</h3>
+                    <p class="skill-card__description">
+                        Designing and deploying scalable cloud infrastructure, from compute to storage to networking layers.
+                    </p>
+                    <ul class="skill-card__badges" aria-label="Cloud Engineering technologies">
+                        <li class="badge">AWS</li>
+                        <li class="badge">Azure</li>
+                        <li class="badge">Terraform</li>
+                        <li class="badge">Docker</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true"><!-- icon placeholder: network --></div>
+                    <h3 class="skill-card__title">Networking</h3>
+                    <p class="skill-card__description">
+                        Configuring and troubleshooting network infrastructure, protocols, and telecommunications systems.
+                    </p>
+                    <ul class="skill-card__badges" aria-label="Networking technologies">
+                        <li class="badge">TCP/IP</li>
+                        <li class="badge">Cisco</li>
+                        <li class="badge">Routing</li>
+                        <li class="badge">Switching</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true"><!-- icon placeholder: code --></div>
+                    <h3 class="skill-card__title">Software Engineering</h3>
+                    <p class="skill-card__description">
+                        Building reliable, maintainable applications with modern development practices and clean architecture.
+                    </p>
+                    <ul class="skill-card__badges" aria-label="Software Engineering technologies">
+                        <li class="badge">Python</li>
+                        <li class="badge">JavaScript</li>
+                        <li class="badge">Git</li>
+                        <li class="badge">CI/CD</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card__icon" aria-hidden="true"><!-- icon placeholder: terminal --></div>
+                    <h3 class="skill-card__title">Linux</h3>
+                    <p class="skill-card__description">
+                        Administering Linux systems, from shell scripting to service management and system hardening.
+                    </p>
+                    <ul class="skill-card__badges" aria-label="Linux technologies">
+                        <li class="badge">Ubuntu</li>
+                        <li class="badge">Bash</li>
+                        <li class="badge">systemd</li>
+                        <li class="badge">Networking Tools</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= SECTION 4: FEATURED PROJECTS ================= -->
+        <section class="projects" id="projects" aria-labelledby="projects-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">What I've Built</p>
+                <h2 class="section-header__heading" id="projects-heading">Featured Projects</h2>
+            </div>
+
+            <div class="projects__list">
+
+                <article class="project" id="project-cloud-portfolio">
+                    <span class="project__number" aria-hidden="true">01</span>
+                    <figure class="project__figure">
+                        <img
+                            src="images/cloud_portfolio.webp"
+                            alt="Screenshot of the Cloud Portfolio Website project"
+                            class="project__image"
+                            loading="lazy"
+                            width="640"
+                            height="400"
+                        >
+                        <figcaption class="visually-hidden">Cloud Portfolio Website preview</figcaption>
+                    </figure>
+                    <div class="project__content">
+                        <h3 class="project__title">Cloud Portfolio Website</h3>
+                        <p class="project__description">
+                            A personal portfolio deployed on cloud infrastructure with automated builds and delivery.
+                        </p>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Problem</h4>
+                            <p class="project__detail-text">Needed a fast, reliable, and scalable way to showcase engineering work online.</p>
+                        </div>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Solution</h4>
+                            <p class="project__detail-text">Deployed a static site to the cloud with a CI/CD pipeline for automatic updates on every commit.</p>
+                        </div>
+                        <ul class="project__stack" aria-label="Technology stack">
+                            <li class="badge">AWS</li>
+                            <li class="badge">S3</li>
+                            <li class="badge">CloudFront</li>
+                            <li class="badge">GitHub Actions</li>
+                        </ul>
+                        <div class="project__actions">
+                            <a href="#" class="btn btn--secondary" aria-label="View Cloud Portfolio Website source on GitHub">GitHub</a>
+                            <a href="#" class="btn btn--primary" aria-label="View Cloud Portfolio Website live demo">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project" id="project-car-rental">
+                    <span class="project__number" aria-hidden="true">02</span>
+                    <figure class="project__figure">
+                        <img
+                            src="images/car_rental.webp"
+                            alt="Screenshot of the Car Rental Management System project"
+                            class="project__image"
+                            loading="lazy"
+                            width="640"
+                            height="400"
+                        >
+                        <figcaption class="visually-hidden">Car Rental Management System preview</figcaption>
+                    </figure>
+                    <div class="project__content">
+                        <h3 class="project__title">Car Rental Management System</h3>
+                        <p class="project__description">
+                            A management system for tracking vehicles, reservations, and customers for a car rental business.
+                        </p>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Problem</h4>
+                            <p class="project__detail-text">Manual tracking of vehicle availability and reservations led to booking conflicts.</p>
+                        </div>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Solution</h4>
+                            <p class="project__detail-text">Built a centralized system to manage fleet status, reservations, and customer records.</p>
+                        </div>
+                        <ul class="project__stack" aria-label="Technology stack">
+                            <li class="badge">Java</li>
+                            <li class="badge">MySQL</li>
+                            <li class="badge">JavaFX</li>
+                        </ul>
+                        <div class="project__actions">
+                            <a href="#" class="btn btn--secondary" aria-label="View Car Rental Management System source on GitHub">GitHub</a>
+                            <a href="#" class="btn btn--primary" aria-label="View Car Rental Management System live demo">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project" id="project-repair-shop">
+                    <span class="project__number" aria-hidden="true">03</span>
+                    <figure class="project__figure">
+                        <img
+                            src="images/repaireshop.webp"
+                            alt="Screenshot of the Repair Shop Management System project"
+                            class="project__image"
+                            loading="lazy"
+                            width="640"
+                            height="400"
+                        >
+                        <figcaption class="visually-hidden">Repair Shop Management System preview</figcaption>
+                    </figure>
+                    <div class="project__content">
+                        <h3 class="project__title">Repair Shop Management System</h3>
+                        <p class="project__description">
+                            A system to manage repair orders, parts inventory, and customer devices for a repair shop.
+                        </p>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Problem</h4>
+                            <p class="project__detail-text">Repair tickets, inventory, and customer records were tracked across disconnected paper logs.</p>
+                        </div>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Solution</h4>
+                            <p class="project__detail-text">Created a unified application to log repairs, track parts stock, and manage customer history.</p>
+                        </div>
+                        <ul class="project__stack" aria-label="Technology stack">
+                            <li class="badge">Python</li>
+                            <li class="badge">SQLite</li>
+                            <li class="badge">Tkinter</li>
+                        </ul>
+                        <div class="project__actions">
+                            <a href="#" class="btn btn--secondary" aria-label="View Repair Shop Management System source on GitHub">GitHub</a>
+                            <a href="#" class="btn btn--primary" aria-label="View Repair Shop Management System live demo">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project" id="project-p2p-streaming">
+                    <span class="project__number" aria-hidden="true">04</span>
+                    <figure class="project__figure">
+                        <img
+                            src="images/p2p.webp"
+                            alt="Screenshot of the P2P Video Streaming Platform project"
+                            class="project__image"
+                            loading="lazy"
+                            width="640"
+                            height="400"
+                        >
+                        <figcaption class="visually-hidden">P2P Video Streaming Platform preview</figcaption>
+                    </figure>
+                    <div class="project__content">
+                        <h3 class="project__title">P2P Video Streaming Platform</h3>
+                        <p class="project__description">
+                            A peer-to-peer platform for distributing video streams without relying on a central server.
+                        </p>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Problem</h4>
+                            <p class="project__detail-text">Centralized streaming servers face high bandwidth costs and single points of failure.</p>
+                        </div>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Solution</h4>
+                            <p class="project__detail-text">Implemented peer-to-peer distribution so viewers share stream data directly with each other.</p>
+                        </div>
+                        <ul class="project__stack" aria-label="Technology stack">
+                            <li class="badge">Node.js</li>
+                            <li class="badge">WebRTC</li>
+                            <li class="badge">Socket.io</li>
+                        </ul>
+                        <div class="project__actions">
+                            <a href="#" class="btn btn--secondary" aria-label="View P2P Video Streaming Platform source on GitHub">GitHub</a>
+                            <a href="#" class="btn btn--primary" aria-label="View P2P Video Streaming Platform live demo">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project" id="project-msan-lab">
+                    <span class="project__number" aria-hidden="true">05</span>
+                    <figure class="project__figure">
+                        <img
+                            src="images/msan.webp"
+                            alt="Screenshot of the MSAN Lab Simulator project"
+                            class="project__image"
+                            loading="lazy"
+                            width="640"
+                            height="400"
+                        >
+                        <figcaption class="visually-hidden">MSAN Lab Simulator preview</figcaption>
+                    </figure>
+                    <div class="project__content">
+                        <h3 class="project__title">MSAN Lab Simulator</h3>
+                        <p class="project__description">
+                            A simulator for Multi-Service Access Node configurations used in telecommunications lab training.
+                        </p>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Problem</h4>
+                            <p class="project__detail-text">Access to physical MSAN hardware for lab practice was limited and difficult to schedule.</p>
+                        </div>
+                        <div class="project__detail">
+                            <h4 class="project__detail-label">Solution</h4>
+                            <p class="project__detail-text">Developed a software simulator replicating MSAN configuration and behavior for hands-on practice.</p>
+                        </div>
+                        <ul class="project__stack" aria-label="Technology stack">
+                            <li class="badge">C++</li>
+                            <li class="badge">Qt</li>
+                            <li class="badge">Telecom Protocols</li>
+                        </ul>
+                        <div class="project__actions">
+                            <a href="#" class="btn btn--secondary" aria-label="View MSAN Lab Simulator source on GitHub">GitHub</a>
+                            <a href="#" class="btn btn--primary" aria-label="View MSAN Lab Simulator live demo">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ================= SECTION 5: EXPERIENCE ================= -->
+        <section class="experience" id="experience" aria-labelledby="experience-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">Where I've Worked</p>
+                <h2 class="section-header__heading" id="experience-heading">Experience</h2>
+            </div>
+
+            <ol class="timeline timeline--experience">
+                <li class="timeline__item">
+                    <h3 class="timeline__org">Mobilis</h3>
+                    <p class="timeline__label">Radio Department Intern</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <h3 class="timeline__org">Algérie Télécom</h3>
+                    <p class="timeline__label">Network Department Intern</p>
+                </li>
+                <li class="timeline__item" aria-hidden="true">
+                    <span class="timeline__connector">↓</span>
+                </li>
+                <li class="timeline__item">
+                    <h3 class="timeline__org">Current</h3>
+                    <p class="timeline__label">Cloud &amp; DevOps Learning Journey</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- ================= SECTION 6: EDUCATION ================= -->
+        <section class="education" id="education" aria-labelledby="education-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">Academic Background</p>
+                <h2 class="section-header__heading" id="education-heading">Education</h2>
+            </div>
+
+            <article class="education-card">
+                <h3 class="education-card__school">ENSTTIC</h3>
+                <p class="education-card__program">Telecommunications Engineering</p>
+                <p class="education-card__years">
+                    <time datetime="2022">2022</time> – <time datetime="2027">2027</time>
+                </p>
+                <address class="education-card__location">
+                    Oran, Algeria
+                </address>
+            </article>
+        </section>
+
+        <!-- ================= SECTION 7: LEARNING ROADMAP ================= -->
+        <section class="learning" id="learning" aria-labelledby="learning-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">Always Growing</p>
+                <h2 class="section-header__heading" id="learning-heading">Learning Roadmap</h2>
+            </div>
+
+            <ul class="learning__grid">
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: linux --></span>
+                    <span class="learning__label">Linux</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: git --></span>
+                    <span class="learning__label">Git</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: aws --></span>
+                    <span class="learning__label">AWS</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: terraform --></span>
+                    <span class="learning__label">Terraform</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: docker --></span>
+                    <span class="learning__label">Docker</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: cicd --></span>
+                    <span class="learning__label">CI/CD</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: kubernetes --></span>
+                    <span class="learning__label">Kubernetes</span>
+                </li>
+                <li class="learning__item">
+                    <span class="learning__icon" aria-hidden="true"><!-- icon placeholder: azure --></span>
+                    <span class="learning__label">Azure</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ================= SECTION 8: CERTIFICATIONS ================= -->
+        <section class="certifications" id="certifications" aria-labelledby="certifications-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">In Progress</p>
+                <h2 class="section-header__heading" id="certifications-heading">Certifications</h2>
+            </div>
+
+            <div class="certifications__grid">
+                <article class="certificate-card">
+                    <div class="certificate-card__icon" aria-hidden="true"><!-- icon placeholder: aws --></div>
+                    <h3 class="certificate-card__title">AWS</h3>
+                    <p class="certificate-card__status">Coming Soon</p>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-card__icon" aria-hidden="true"><!-- icon placeholder: azure --></div>
+                    <h3 class="certificate-card__title">Azure</h3>
+                    <p class="certificate-card__status">Coming Soon</p>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-card__icon" aria-hidden="true"><!-- icon placeholder: cisco --></div>
+                    <h3 class="certificate-card__title">Cisco</h3>
+                    <p class="certificate-card__status">Coming Soon</p>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-card__icon" aria-hidden="true"><!-- icon placeholder: linux foundation --></div>
+                    <h3 class="certificate-card__title">Linux Foundation</h3>
+                    <p class="certificate-card__status">Coming Soon</p>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-card__icon" aria-hidden="true"><!-- icon placeholder: google cloud --></div>
+                    <h3 class="certificate-card__title">Google Cloud</h3>
+                    <p class="certificate-card__status">Coming Soon</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= SECTION 9: CONNECT ================= -->
+        <section class="contact" id="contact" aria-labelledby="contact-heading">
+            <div class="section-header">
+                <p class="section-header__eyebrow">Let's Talk</p>
+                <h2 class="section-header__heading" id="contact-heading">Connect</h2>
+            </div>
+
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <span class="contact__label">Email</span>
+                            <a href="mailto:ouissalkhengui@gmail.com" class="contact__value">ouissalkhengui@gmail.com</a>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__label">Location</span>
+                            <address class="contact__value">Oran, Algeria</address>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__label">GitHub</span>
+                            <a href="https://github.com/ouissal-kh" class="contact__value" target="_blank" rel="noopener noreferrer">github.com/ouissal-kh</a>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/ouissal-khengui-057a73260/" class="contact__value" target="_blank" rel="noopener noreferrer">linkedin.com/in/ouissal-khengui</a>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__label">Hashnode</span>
+                            <a href="https://hashnode.com/@ouissalkhengui" class="contact__value" target="_blank" rel="noopener noreferrer">hashnode.com/@ouissalkhengui</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact__form" id="contact-form" aria-label="Contact form">
+                    <div class="contact__field">
+                        <label for="contact-name" class="contact__field-label">Full Name</label>
+                        <input type="text" id="contact-name" name="name" class="contact__input" autocomplete="name" required>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="contact-email" class="contact__field-label">Email</label>
+                        <input type="email" id="contact-email" name="email" class="contact__input" autocomplete="email" required>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="contact-subject" class="contact__field-label">Subject</label>
+                        <input type="text" id="contact-subject" name="subject" class="contact__input" required>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="contact-message" class="contact__field-label">Message</label>
+                        <textarea id="contact-message" name="message" class="contact__textarea" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary contact__submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <h2 class="footer__heading">About</h2>
+                <p class="footer__text">
+                    Telecommunications Engineering student building practical solutions through Networking, Linux, Cloud Computing, and Software Engineering.
+                </p>
+            </div>
+
+            <nav class="footer__column" aria-label="Footer quick links">
+                <h2 class="footer__heading">Quick Links</h2>
+                <ul class="footer__list">
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#journey" class="footer__link">Journey</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#experience" class="footer__link">Experience</a></li>
+                    <li><a href="#education" class="footer__link">Education</a></li>
+                    <li><a href="#learning" class="footer__link">Learning</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__column">
+                <h2 class="footer__heading">Social Links</h2>
+                <ul class="footer__list">
+                    <li><a href="https://github.com/ouissal-kh" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/ouissal-khengui-057a73260/" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://hashnode.com/@ouissalkhengui" class="footer__link" target="_blank" rel="noopener noreferrer">Hashnode</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__tagline">Powered by Curiosity. Built through Continuous Learning.</p>
+            <p class="footer__copyright">&copy; <time datetime="2026">2026</time> KHENGUI Ouissal</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
