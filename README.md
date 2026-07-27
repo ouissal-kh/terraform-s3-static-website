@@ -42,6 +42,35 @@ terraform validate
 terraform plan
 terraform apply
 ```
+## 📸 Project Screenshots
+
+### Terraform Plan
+
+![Terraform Plan](screenshots/terraform-plan.png)
+
+---
+
+### Terraform Apply
+
+![Terraform Apply](screenshots/terraform-apply.png)
+
+---
+
+### Website Home
+
+![Website Home](screenshots/website-home.png)
+
+---
+
+### Projects Section
+
+![Projects](screenshots/website-projects.png)
+
+---
+
+### Contact Section
+
+![Contact](screenshots/website-contact.png)
 
 ## Author
 

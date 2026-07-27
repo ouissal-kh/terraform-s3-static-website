@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-	bucket = "ouissal-static-portfolio-2026"
+	bucket = "ouissal-cloud-portfolio-2026-0727"
 }
 resource "aws_s3_bucket_website_configuration" "website" {
   bucket = aws_s3_bucket.bucket.id
